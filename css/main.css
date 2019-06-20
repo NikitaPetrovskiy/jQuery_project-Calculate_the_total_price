@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 5px;
+    font-family: 'Sawarabi Gothic', sans-serif;
+}
+.logos {
+    margin: auto;
+    width: 300px;
+}
+.logo{
+    margin-bottom: 10px;
+    width: 150px;
+    height: 50px;
+}
+#logoHuyndai {
+    margin-bottom: 20px;
+    width: 139px;
+    height: 24px;
+}
+.colorsSelector {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 400px;
+}
+.colorItem {
+    margin-left: 10px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.colorBlue {
+    background-color: #325488;
+}
+.colorBronze {
+    background-color: #d87c5a;
+}
+.colorRed {
+    background-color: #c64040;
+}
+.colorWhite {
+    background-color: #f0f0f0;
+}
+.colorGrey {
+    background-color: #cfcfcf;
+}
+.colorBlack {
+    background-color: #08090b;
+}
+#author {
+    text-align: center;
+    margin-top: 40px;
+    line-height: 20px;
+    font-family: 'Amatic SC', cursive;
+}
+.imgHolder {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+#imgAuto {
+    display: flex;
+    margin-bottom: 5px;
+    width: 855px;
+    height: 405px;
+}
+.model-summary{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-right: 10px;
+    padding-top: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    /*line-height: 35px;*/
+    background: rgb(206,198,190);
+}
+.model-name{
+    align-self: center;
+    font-weight: bold;
+    color: white;
+}
+.model-specs {
+    padding: 0 10px;
+    color: #353535;
+    /*border-bottom: 1px solid #353535;*/
+}
+.model-price{
+    padding: 0 10px;
+    font-weight: bold;
+    color: #5b7;
+}
+.button {
+    box-sizing: border-box;
+    margin: 0;
+    padding-top: 10px;
+    text-align: center;
+    height: 40px;
+    background: rgb(0,79,172);
+    color: #f0f0f0;
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#heading-colors {
+    display: flex;
+    flex-direction: row;
+}
+.colorBlock {
+    box-sizing: border-box;
+    margin-left: 50px;
+    margin-top: 10px;
+    justify-self: center;
+    width: 400px;
+}
+#choose {
+    margin: 0 5px;
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+#autoForm h2 {
+    display: block;
+    align-self: start;
+    margin-left: 40px;
+    margin-right: 10px;
+    width: 300px;
+}
+#autoForm{
+    margin: 20px 10px 0 20px;
+    border: 4px solid rgb(206,198,190);
+}
+.row{
+    display: flex;
+    margin-left: 30px;
+}
+.col-1-of-3{
+    margin:0 50px;
+    padding-bottom: 20px;
+}
+

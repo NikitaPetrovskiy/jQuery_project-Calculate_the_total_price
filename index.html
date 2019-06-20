@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="logos">
+<img src="https://www.jsexpert.net/wp-content/uploads/2016/12/jquery.png" alt="Логотип" class="logo">
+<img  id="logoHuyndai" src="images/logo.png">
+</div>
+<div id="imgHolder" class="imgHolder">
+    <img id="imgAuto" src="images/black.png" alt="Автомобиль">
+    <div class="model-summary">
+        <div class="model-name">Hyundai Solaris</div>
+        <div class="model-specs">1.6 - 6AT  Comfort</div>
+        <div class="model-price" id="modelPrice"> 3200 рублей</div>
+        <div class="model-price" id="modelPriceUSD"> $ 5</div>
+        <div class="button">Заказать</div>
+    </div>
+</div>
+
+<form id="autoForm">
+    <div id="heading-colors">
+<h2>Настрой авто для себя</h2>
+    <div class="colorBlock">
+        <div id="colorsSelector" class="colorsSelector">
+            <div id="choose"><h4>Цвет</h4></div>
+            <div class="colorItem colorBlue" data-img-path="images/blue.png"></div>
+            <div class="colorItem colorBronze" data-img-path="images/bronze.png"></div>
+            <div class="colorItem colorRed" data-img-path="images/red.png"></div>
+            <div class="colorItem colorWhite" data-img-path="images/white.png"></div>
+            <div class="colorItem colorGrey" data-img-path="images/grey.png"></div>
+            <div class="colorItem colorBlack" data-img-path="images/black.png"></div>
+        </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-1-of-3">
+            <h4>Двигатель</h4>
+            <div class="form-block">
+                <input type="radio" name="engine" id="engine1400" value="624900" checked>
+                <label for="engine1400">1.4 л (100 л.с.)</label>
+            </div>
+            <div class="form-block">
+                <input type="radio" name="engine" id="engine1600" value="7400005">
+                <label for="engine1600">1.4 л (100 л.с.)</label>
+            </div>
+        </div>
+
+        <div class="col-1-of-3">
+            <h4>Коробка передач</h4>
+            <div class="form-block">
+                <input type="radio" name="transmission" id="transmission6MT" value="0" checked>
+                <label for="engine1400">Ручная , 6 ступеней (6МТ)</label>
+            </div>
+            <div class="form-block">
+                <input type="radio" name="transmission" id="transmission6AT" value="125000">
+                <label for="engine1600">Автомат, 6 ступеней (6АТ)</label>
+            </div>
+        </div>
+        <div class="col-1-of-3">
+            <h4>Дополнительные опции</h4>
+            <div class="form-block">
+                <input type="radio" name="package" id="packageActive" value="0" checked>
+                <label for="packageActive">Active</label>
+            </div>
+            <div class="form-block">
+                <input type="radio" name="package" id="packageActivePlus" value="852000">
+                <label for="packageActivePlus">Active Plus (кондиционер)</label>
+            </div>
+            <div class="form-block">
+                <input type="radio" name="package" id="packageComfort" value="13000000">
+                <label for="packageComfort">Comfort (климатконтроль)</label>
+            </div>
+        </div>
+    </div>
+</form>
+<h2 id="author">(с)Никита Петровский</h2>
+<script src="libs/jQuery/jquery-3.4.1.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
