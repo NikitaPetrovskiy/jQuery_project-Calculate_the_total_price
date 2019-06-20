@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Calculate the total price</title>
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
 </head>
@@ -15,7 +15,7 @@
     <img id="imgAuto" src="images/black.png" alt="Автомобиль">
     <div class="model-summary">
         <div class="model-name">Hyundai Solaris</div>
-        <div class="model-specs">1.6 - 6AT  Comfort</div>
+        <div class="model-specs" id="modelSpelcs">1.6 - 6AT  Comfort</div>
         <div class="model-price" id="modelPrice"> 3200 рублей</div>
         <div class="model-price" id="modelPriceUSD"> $ 5</div>
         <div class="button">Заказать</div>
@@ -25,7 +25,7 @@
 <form id="autoForm">
     <div id="heading-colors">
 <h2>Настрой авто для себя</h2>
-    <div class="colorBlock">
+    <div class="form-block">
         <div id="colorsSelector" class="colorsSelector">
             <div id="choose"><h4>Цвет</h4></div>
             <div class="colorItem colorBlue" data-img-path="images/blue.png"></div>
@@ -45,8 +45,8 @@
                 <label for="engine1400">1.4 л (100 л.с.)</label>
             </div>
             <div class="form-block">
-                <input type="radio" name="engine" id="engine1600" value="7400005">
-                <label for="engine1600">1.4 л (100 л.с.)</label>
+                <input type="radio" name="engine" id="engine1600" value="749900">
+                <label for="engine1600">1.6 л (123 л.с.)</label>
             </div>
         </div>
 
@@ -78,7 +78,7 @@
         </div>
     </div>
 </form>
-<h2 id="author">(с)Никита Петровский</h2>
+<h2 id="author">(с) Никита Петровский</h2>
 <script src="libs/jQuery/jquery-3.4.1.min.js"></script>
 <script src="js/main.js"></script>
 </body>

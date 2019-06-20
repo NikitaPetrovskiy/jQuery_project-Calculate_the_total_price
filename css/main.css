@@ -21,7 +21,11 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 400px;
+    width: 420px;
+    box-sizing: border-box;
+    margin-left: 50px;
+    margin-top: 10px;
+    justify-self: center;
 }
 .colorItem {
     margin-left: 10px;
@@ -111,13 +115,6 @@ body {
 #heading-colors {
     display: flex;
     flex-direction: row;
-}
-.colorBlock {
-    box-sizing: border-box;
-    margin-left: 50px;
-    margin-top: 10px;
-    justify-self: center;
-    width: 400px;
 }
 #choose {
     margin: 0 5px;
